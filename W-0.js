@@ -58,5 +58,5 @@
             document.getElementById('thankyou-message').style.display='block'
             document.getElementbyId('contact').scrollIntoView({behavior: 'smooth'});
         }
-    };
+    });
 
