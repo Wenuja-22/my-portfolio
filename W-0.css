@@ -462,11 +462,18 @@
     }
 
     .thankyou {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      flex-direction: column;
       margin-top: 20px;
+      margin-left: 500px;
+      text-align: center;
+      width: 400px;
       padding: 15px;
       border: 2px solid #0ff;
       border-radius: 8px;
-      text-align: center;
       box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
     }
     /* Footer */
@@ -498,6 +505,20 @@
     .footer-links a:hover {
       color: #0ff;
       text-shadow: 0 0 5px #0ff;
+    }
+
+    .icon-logo {
+      width: 200px;
+      height: 200px;
+      margin-bottom: 30px;
+      margin-left: 20px;
+      margin-right: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .icon-logo:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 10px rgb(18, 0, 176), 0 0 20px rgb(18, 0, 176);
     }
 
     
