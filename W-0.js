@@ -56,5 +56,9 @@
     const thankyou = new URLSearchParams(window.location.search);
     if (thankyou.get('success') === '1') {
         document.getElementById('thankyou-message').style.display='block'
+
+        document.getElementbyId('contact').scrollIntoView({
+            behavior: 'smooth'
+        });
     };
 
