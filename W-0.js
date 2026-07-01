@@ -54,7 +54,7 @@
 
     
     const thankyou = new URLSearchParams(window.location.search);
-        if (thankyou.has('success')) {
+        if (thankyou.get('success') === '1') {
             document.getElementById('thankyou-message').style.display='block'
         };
 
