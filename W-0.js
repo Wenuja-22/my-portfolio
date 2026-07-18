@@ -60,3 +60,16 @@
         }
     });
 
+    //Loading Prompt
+    window.addEventListener('load', function() {
+        document.querySelector('.loading-dots').style.display= 'none';
+    });
+
+    window.addEventListener('load', function() {
+        const overlay = document.querySelector('.loading-overlay');
+        overlay.classList.add('hidden');
+        setTimeout(() => {
+            overlay.style.display = 'none';
+        }, 1000);
+    });
+
