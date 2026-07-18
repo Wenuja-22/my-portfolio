@@ -27,7 +27,7 @@
       min-width: 300px;
     }
 
-    * ---------- Loading Prompt ---------- */
+    /* ---------- Loading Prompt ---------- */
     .loading-overlay {
       position: fixed;
       top: 0;
