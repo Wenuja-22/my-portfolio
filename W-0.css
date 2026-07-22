@@ -355,7 +355,7 @@
     @media (max-width: 768px) {
       .hero-img {
         max-width: 300px;
-        margin-left: 40px;
+        margin-left: 10px;
       }
     }
 
