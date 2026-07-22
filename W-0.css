@@ -221,7 +221,7 @@
       }
 
       nav ul li a {
-        font-size: 25px;
+        font-size: 15px;
         letter-spacing: 1px;
         font-weight: 500;
         opacity: 0.8;
@@ -352,9 +352,9 @@
       box-shadow: 0 0 30px #152c66;
     }
 
-    @media (max-width: 600px) {
+    @media (max-width: 768px) {
       .hero-img {
-        max-width: 250px;
+        max-width: 300px;
         margin-left: 40px;
       }
     }
