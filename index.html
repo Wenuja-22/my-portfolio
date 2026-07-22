@@ -8,14 +8,14 @@
   <title>Wenuja Dharmapala | Portfolio</title>
   <meta name="description" content="Portfolio website of Wenuja Dharmapala">
   <link rel="stylesheet" href="https://cloudflare.com">
-  <link rel="icon" type="image/png" href="icon.jpeg">
+  <link rel="icon" type="image/png" href="icon.png">
   <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
   <!--Loading Prompt-->
   <div class="loading-overlay">
     <div class="loading-container">
-      <img src="icon.jpeg" alt="Loading ICON" class="loading-icon">
+      <img src="icon1.png" alt="Loading ICON" class="loading-icon">
       <div class="loading-dots">
         <span></span><span></span><span></span>
       </div>
@@ -23,9 +23,10 @@
   </div>
 
   <!-- Navigation -->
-  <nav>
+  <nav class="nav-pc">
     <div class="logo"><a href="#home">W—D World</a></div>
-    <ul>
+    <button class="menu-toggle">&#9776;</button>
+    <ul class="nav-links">
       <li><a href="#about">About Me</a></li>
       <li><a href="#skills">Skills</a></li>
       <li><a href="#achievements">Achievements</a></li>
@@ -34,6 +35,8 @@
       <li><a href="#contact">Contact</a></li>
     </ul> 
   </nav>
+  <div class="menu-overlay"></div>
+
 
   <!-- Hero Section -->
   <section class="hero" id="home">
@@ -41,21 +44,16 @@
       <h5>WELCOME TO MY WORLD</h5>
       <h1>My <span>digital</span> experiences</h1>
       <p>
-        An aspiring Technology & ICT student crafting beautiful, performant web applications that leave a memorable impact.
+        An aspiring Technology & ICT student crafting beautiful, performant web applications that leave a lasting impression.
       </p>
       <div class="buttons">
-        <button class="btn-primary">Get in Touch</button>
-        <button class="btn-secondary">View Work</button>
-      </div>
-      <div class="socials">
-        <a href="#"><i class="fab fa-github"></i></a>
-        <a href="#"><i class="fab fa-linkedin"></i></a>
-        <a href="#"><i class="fas fa-envelope"></i></a>
+        <a href="#contact-methods" class="btn-primary">Get in Touch</a>
+        <a href="#projects" class="btn-secondary">View Work</a>
       </div>
     </div>
 
     <div class="hero-img">
-      <img src="image1.png" alt="Profile Photo" />
+      <img src="profile.png" alt="Profile Photo" />
     </div>
   </section>
 
